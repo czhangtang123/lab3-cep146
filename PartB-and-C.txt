@@ -12,6 +12,8 @@ What if you had 5 people instead of 2?
 If we had 3 more people we would have 3 more branches, one branch per person. Then when everyone wants to combine their work we would make a pull request to the main branch.
 How would you track who made which changes?
 Github automatically tracks who made changes using the commit history.
+How do we describe changes?
+Github lets us add a custom description for a commit. 
 
 Draw a diagram of how your version control system would work
 Github Version Control System Diagram
