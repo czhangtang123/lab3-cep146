@@ -1,0 +1,80 @@
+PART B: 
+Problem Analysis
+
+Discuss what problems you encountered in Part A:
+Were changes overwritten or lost?
+We made our own branches so no changes were overwritten or lost.
+How did you decide which changes to keep?
+We decided what changes to keep by making a pull request to the main branch, then one of us accepted the merge to keep the changes.
+What if you had 5 people instead of 2?
+If we had 3 more people we would have 3 more branches, one branch per person. Then when everyone wants to combine their work we would make a pull request to the main branch.
+How would you track who made which changes?
+Github automatically tracks who made changes using the commit history.
+
+Draw a diagram of how your version control system would work
+Github Version Control System Diagram
+        Repository ByeongHak     Repository Chris       
+    ┌─────────────────────┐   ┌─────────────────────┐  
+    │   Complete History  │   │   Complete History  │   
+    │  ├── commit 1       │   │  ├── commit 1       │  
+    │  ├── commit 2       │   │  ├── commit 2       │  
+    │  ├── commit 3       │   │  ├── commit 3       │   
+    │  └── commit 4       │   │  └── commit 4       │  
+    └─────────────────────┘   └─────────────────────┘   
+             │                           │                          
+             └───────────────────────────┼
+                                         │
+                              ┌─────────────────────┐
+                              │   Remote Server     │
+                              │  (GitHub, GitLab)   │
+                              │   Complete History  │
+                              └─────────────────────┘
+
+Your system must address these requirements:
+How do you store different versions?
+Github uses commit history to store the different versions.
+How do you track who made changes?
+Github has the commit history to track what user/account made changes.
+How do you handle conflicts when two people edit the same line?
+We prevent editing the same line by making our own branches and then merging them later.
+How do you name/identify different versions?
+Github has an unique hash for each commit to identify different versions.
+How do you describe what changed in each version?
+Github uses compare changes to see the differences in each version. Added lines are highlighted green and deleted lines are highlighted red.
+How do you prevent people from overwriting each other's work?
+We prevent overwriting each other's work by making seperate branches so we can work on our own version seperately.
+
+PART C: Documenting our solution
+_________________________________________
+Github Version Control System Diagram
+        Repository ByeongHak     Repository Chris       
+    ┌─────────────────────┐   ┌─────────────────────┐  
+    │   Complete History  │   │   Complete History  │   
+    │  ├── commit 1       │   │  ├── commit 1       │  
+    │  ├── commit 2       │   │  ├── commit 2       │  
+    │  ├── commit 3       │   │  ├── commit 3       │   
+    │  └── commit 4       │   │  └── commit 4       │  
+    └─────────────────────┘   └─────────────────────┘   
+             │                           │                          
+             └───────────────────────────┼
+                                         │
+                              ┌─────────────────────┐
+                              │   Remote Server     │
+                              │  (GitHub, GitLab)   │
+                              │   Complete History  │
+                              └─────────────────────┘
+
+Explanation / How we use Github as our Version Control System:
+
+We made our own branches of the main repository. We wrote our own version of the poem with our names.
+Every time we made a change to the local repository, we committed the changes and pushed the changes to our own branch.
+Then, when we had to merge the poems into a final poem, one of us had to make a pull request. 
+
+Top 3 Problems from Part A that our system solves:
+1. Automatically saves every version
+  We can see the history of our commits and what version it is
+2. Lets you jump back to any previous version instantly
+  We can revert our changes to any version we wanted
+3. Allows multiple people to work on the same document
+  Github lets us work on the same document by making our own versions of the poem and then merging it into a final poem.
+
