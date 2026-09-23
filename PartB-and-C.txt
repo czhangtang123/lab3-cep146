@@ -2,6 +2,8 @@ PART B:
 Problem Analysis
 
 Discuss what problems you encountered in Part A:
+How we store on documents?
+Github store remote repository on their server.
 Were changes overwritten or lost?
 We made our own branches so no changes were overwritten or lost.
 How did you decide which changes to keep?
